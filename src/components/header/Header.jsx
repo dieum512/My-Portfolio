@@ -1,4 +1,5 @@
 import React from 'react';
+import CTA from './CTA';
 import './header.css'
 
 const Header = () => {

@@ -112,10 +112,21 @@ img {
 /* ==================== TABLET VERSIOON ==================== */
 @media screen and (max-with: 1020px) {
     .container {
-        width: (var(--container-width-md)); 
+        width: var(--container-width-md); 
     }
 
     section {
         margin-top: 6rem;
+    }
+}
+
+/* ==================== PHONE VERSIOON ==================== */
+@media screen and (max-with: 600px) {
+    .container {
+        width: var(--container-width-sm); 
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
     }
 }

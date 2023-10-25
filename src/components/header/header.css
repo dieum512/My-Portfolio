@@ -35,3 +35,13 @@ header {
     height: 2rem;
     background: var(--color-primary);
 }
+
+/* ================ SCROLL DOWN ================ */
+.scroll__down {
+    position: absolute;
+    right: 2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}

@@ -110,7 +110,7 @@ img {
 }
 
 /* ==================== TABLET VERSIOON ==================== */
-@media screen and (max-with: 1020px) {
+@media (max-width: 1020px) {
     .container {
         width: var(--container-width-md); 
     }
@@ -121,7 +121,7 @@ img {
 }
 
 /* ==================== PHONE VERSIOON ==================== */
-@media screen and (max-with: 600px) {
+@media (max-width: 600px) {
     .container {
         width: var(--container-width-sm); 
     }

@@ -87,7 +87,7 @@
     }
 }
 
-/* ================= TABLET VERSION ================== */
+/* ================= PHONE VERSION ================== */
 @media (max-width: 600px) {
     .about__me {
         width: 65%;

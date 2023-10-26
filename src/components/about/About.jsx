@@ -23,7 +23,7 @@ const About = () => {
               <small>1+ Year Working</small>
             </article>
             <article className="about__card">
-              <ImFolderOpen className='abouFaAwardt__icon'/>
+              <ImFolderOpen className='about__icon'/>
               <h5>Projects</h5>
               <small>30+ Completed</small>
             </article>

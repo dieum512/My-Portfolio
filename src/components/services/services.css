@@ -30,3 +30,7 @@
     font-size: 1rem;
     text-align: center;
 }
+
+.service__list {
+    padding: 2rem;
+}

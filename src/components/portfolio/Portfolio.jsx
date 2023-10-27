@@ -60,19 +60,17 @@ const Portfolio = () => {
           data.map((project) => {
             return (
               <article className="portfolio__item">
-                <h3>{ project.title}</h3>
-                <div className="portfolio__item-2">
                   <div className="portfolio__item-image">
                     <img src={project.image} alt="" />
                   </div>
                   <div className="portfolio_item-details">
+                    <h3>{ project.title}</h3>
                     <p>{project.detail}</p>
                     <div className="portfolio__item-cta">
                       <a href={project.github} className="btn" target='_blank'>Github</a>
                       <a href={project.demo} className="btn btn-primary" target='_blank'>Live Demo</a>
                     </div>
                   </div>
-                </div>
               </article>
             )
           })

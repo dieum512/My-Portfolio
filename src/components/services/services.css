@@ -49,3 +49,15 @@
 .service__list p {
     font-size: 0.9rem;
 }
+
+/* ==================== TABLET VERSIOON ==================== */
+@media (max-width: 1020px) {
+    .services__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+    }
+}

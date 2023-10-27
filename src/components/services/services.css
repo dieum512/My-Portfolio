@@ -11,3 +11,9 @@
     height: fit-content;
     transition: var(--transition);
 }
+
+.service:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}

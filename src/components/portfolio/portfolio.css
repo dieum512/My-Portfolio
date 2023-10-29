@@ -1,0 +1,14 @@
+.portfolio__container .swiper {
+    width: 70%;
+    position: unset;
+}
+
+.portfolio__container .swiper-slide {
+    background: var(--color-white);
+    /* display: flex; */
+    overflow: hidden;
+}
+
+.portfolio__container .swiper-button-prev {
+    left: 6rem;
+}

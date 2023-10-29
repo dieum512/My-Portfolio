@@ -5,6 +5,11 @@ import IMG2 from '../../assets/project2.png'
 import IMG3 from '../../assets/project3.png'
 import IMG4 from '../../assets/project4.png'
 import IMG5 from '../../assets/project5.png'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css'
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 const data = [
@@ -55,11 +60,28 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
-      <div className="container portfolio__container">
+      {/* <div className="container portfolio__container">
+        <Swiper>
+          <SwiperSlide>1</SwiperSlide>
+          <SwiperSlide>2</SwiperSlide>
+          <SwiperSlide>3</SwiperSlide>
+          <SwiperSlide>4</SwiperSlide>
+        </Swiper>
+      </div> */}
+      <div className="portfolio__container">
+      <Swiper
+          navigation={true}
+          pagination={true}
+          modules={[Navigation, Pagination]}
+          loopFillGroupWithBlank={true}
+        //   slidesPerView={3}
+          spaceBetween={40}
+          slidesPerGroup={1}
+      >
         {
           data.map((project) => {
             return (
-              <article className="portfolio__item">
+              <SwiperSlide key={project.id} className="">
                   <div className="portfolio__item-image">
                     <img src={project.image} alt="" />
                   </div>
@@ -71,10 +93,11 @@ const Portfolio = () => {
                       <a href={project.demo} className="btn btn-primary" target='_blank'>Live Demo</a>
                     </div>
                   </div>
-              </article>
+              </SwiperSlide>
             )
           })
         }
+      </Swiper>
       </div>
     </section>
   )

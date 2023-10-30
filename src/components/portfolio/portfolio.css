@@ -17,6 +17,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 3%;
 }
+
+.portfolio_item-details h3 {
+    margin: 0.5rem 0 0.7rem;
+}
 /* 
 .portfolio__container .swiper-button-prev {
     left: 6rem;

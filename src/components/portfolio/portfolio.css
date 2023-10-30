@@ -1,14 +1,23 @@
-.portfolio__container .swiper {
+.portfolio__container {
     width: 70%;
     position: unset;
 }
 
-.portfolio__container .swiper-slide {
-    background: var(--color-white);
-    /* display: flex; */
-    overflow: hidden;
+.swiper__cont {
+    position: relative;
 }
 
+.swiper__cont .swiper {
+    width: 80%;
+    position: unset;
+}
+
+.swiper__cont .swiper-slide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3%;
+}
+/* 
 .portfolio__container .swiper-button-prev {
     left: 6rem;
-}
+} */

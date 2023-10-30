@@ -32,3 +32,22 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+/* ==================== TABLET VERSIOON ==================== */
+@media (max-width: 1020px) {
+    .swiper__cont .swiper-slide {
+        grid-template-columns: 1fr;
+    }
+
+    .swiper__cont .swiper-slide .portfolio__item-image {
+        margin: 0 10% 0;
+    }
+
+    .portfolio_item-details h3 {
+        text-align: center;
+    }
+
+    .portfolio__item-cta {
+        margin: 0 20%;
+    }
+}

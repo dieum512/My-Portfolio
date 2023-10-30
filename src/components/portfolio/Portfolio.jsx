@@ -60,24 +60,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Works</h5>
       <h2>Portfolio</h2>
-      {/* <div className="container portfolio__container">
-        <Swiper>
-          <SwiperSlide>1</SwiperSlide>
-          <SwiperSlide>2</SwiperSlide>
-          <SwiperSlide>3</SwiperSlide>
-          <SwiperSlide>4</SwiperSlide>
-        </Swiper>
-      </div> */}
       <div className="container portfolio__container">
-      {/* <Swiper
-          navigation={true}
-          pagination={true}
-          modules={[Navigation, Pagination]}
-          loopFillGroupWithBlank={true}
-          slidesPerView={3}
-          spaceBetween={40}
-          slidesPerGroup={1}
-      > */}
         <div className="swiper__cont">
         <Swiper
           navigation

@@ -21,6 +21,10 @@
 .portfolio_item-details h3 {
     margin: 0.5rem 0 0.7rem;
 }
+
+.portfolio_item-details p {
+    margin-bottom: 2rem;
+}
 /* 
 .portfolio__container .swiper-button-prev {
     left: 6rem;

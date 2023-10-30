@@ -68,16 +68,26 @@ const Portfolio = () => {
           <SwiperSlide>4</SwiperSlide>
         </Swiper>
       </div> */}
-      <div className="portfolio__container">
-      <Swiper
+      <div className="container portfolio__container">
+      {/* <Swiper
           navigation={true}
           pagination={true}
           modules={[Navigation, Pagination]}
           loopFillGroupWithBlank={true}
-        //   slidesPerView={3}
+          slidesPerView={3}
           spaceBetween={40}
           slidesPerGroup={1}
-      >
+      > */}
+        <div className="swiper__cont">
+        <Swiper
+          navigation
+          modules={[Navigation, Pagination]}
+          className="mySwiper"
+          loopFillGroupWithBlank
+            slidesPerView={1}
+          spaceBetween={20}
+          slidesPerGroup={1}
+        >
         {
           data.map((project) => {
             return (
@@ -98,6 +108,7 @@ const Portfolio = () => {
           })
         }
       </Swiper>
+      </div>
       </div>
     </section>
   )

@@ -35,6 +35,10 @@
 
 /* ==================== TABLET VERSIOON ==================== */
 @media (max-width: 1020px) {
+    .swiper__cont .swiper-button-prev,
+    .swiper__cont .swiper-button-next {
+      display: none;
+    }
     .swiper__cont .swiper-slide {
         grid-template-columns: 1fr;
     }
@@ -49,5 +53,16 @@
 
     .portfolio__item-cta {
         margin: 0 20%;
+    }
+}
+
+/* ==================== PHONE VERSIOON ==================== */
+@media (max-width: 600px) {
+    .swiper__cont .swiper-slide .portfolio__item-image {
+        margin: 0;
+    }
+
+    .portfolio__item-cta {
+        margin: 0;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css'
-import { BsLinkedin } from 'react-icons/bs'
+import { FaLinkedinIn } from 'react-icons/fa'
 import { FaTwitter } from 'react-icons/fa'
 import {AiOutlineHeart} from 'react-icons/ai'
 
@@ -18,7 +18,7 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/dieum-akonkwa/"><BsLinkedin/></a>
+        <a href="https://www.linkedin.com/in/dieum-akonkwa/"><FaLinkedinIn/></a>
         <a href="https://twitter.com/dieumakonkw"><FaTwitter/></a>
       </div>
       <div className="footer__copyright">

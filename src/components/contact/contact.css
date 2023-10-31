@@ -64,3 +64,10 @@ input, textarea {
         gap: 2rem;
     }
 }
+
+/* ==================== PHONE VERSIOON ==================== */
+@media (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
+}

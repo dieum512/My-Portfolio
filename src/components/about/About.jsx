@@ -1,7 +1,8 @@
 import React from 'react';
 import ME from '../../assets/IMG_2025.jpg'
 import { FaAward } from 'react-icons/fa'
-import {ImFolderOpen} from 'react-icons/im'
+import { ImFolderOpen } from 'react-icons/im'
+import {ImUsers} from 'react-icons/im'
 import './about.css';
 
 const About = () => {
@@ -28,9 +29,9 @@ const About = () => {
               <small>30+ Completed</small>
             </article>
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1+ Year Working</small>
+              <ImUsers className='about__icon'/>
+              <h5>Collaboration</h5>
+              <small>Good communicator</small>
             </article>
           </div>
           <p>

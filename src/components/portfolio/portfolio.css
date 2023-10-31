@@ -55,17 +55,13 @@
   }
 
   .portfolio__item-cta {
-    margin: 0 20%;
+    justify-content: center;
   }
 }
 
 /* ==================== PHONE VERSIOON ==================== */
 @media (max-width: 600px) {
   .swiper__cont .swiper-slide .portfolio__item-image {
-    margin: 0;
-  }
-
-  .portfolio__item-cta {
     margin: 0;
   }
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import RESUME from '../../assets/Dieum_Resume.pdf'
 
 const CTA = () => {
   return (

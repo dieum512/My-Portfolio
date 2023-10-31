@@ -64,6 +64,7 @@ const Portfolio = () => {
         <div className="swiper__cont">
         <Swiper
           navigation
+          pagination={{clickable:true}}
           modules={[Navigation, Pagination]}
           className="mySwiper"
           loopFillGroupWithBlank

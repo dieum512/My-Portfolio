@@ -56,3 +56,11 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
+
+/* ==================== TABLET VERSIOON ==================== */
+@media (max-width: 1020px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

@@ -5,6 +5,7 @@
 
 .swiper__cont {
     position: relative;
+    padding-bottom: 6rem;
 }
 
 .swiper__cont .swiper {

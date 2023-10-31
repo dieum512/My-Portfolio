@@ -5,7 +5,7 @@ import { Pagination } from 'swiper/modules';
 import AVTR1 from '../../assets/avatar1.jpeg';
 import AVTR2 from '../../assets/avatar2.jpeg';
 import AVTR3 from '../../assets/avatar3.png';
-import AVTR4 from '../../assets/avatar4.jpeg'
+import AVTR4 from '../../assets/avatar4.jpeg';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -33,7 +33,7 @@ const data = [
     id: 4,
     avatar: AVTR4,
     name: 'Sumon Islam',
-    review: `Dieum is a dedicated and skilled professional with expertise in JavaScript, React, Rails, and Bootstrap. He's driven by his goals and consistently delivers results. What sets Dieum apart is not only his technical proficiency but also his friendly and collaborative nature. His tenacity when approaching programming challenges is commendable, as he persistently works on them until they are resolved. Dieum's combination of technical skills and his amiable personality make him a valuable addition to any organization. I wholeheartedly recommend Dieum for any role or project he chooses to pursue.`
+    review: 'Dieum is a dedicated and skilled professional with expertise in JavaScript, React, Rails, and Bootstrap. He\'s driven by his goals and consistently delivers results. What sets Dieum apart is not only his technical proficiency but also his friendly and collaborative nature. His tenacity when approaching programming challenges is commendable, as he persistently works on them until they are resolved. Dieum\'s combination of technical skills and his amiable personality make him a valuable addition to any organization. I wholeheartedly recommend Dieum for any role or project he chooses to pursue.',
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
-import { AiOutlineLinkedin } from 'react-icons/ai';
+import { BiLogoLinkedin } from 'react-icons/bi';
 import { BsWhatsapp } from 'react-icons/bs';
 
 const Contact = () => {
@@ -18,7 +18,7 @@ const Contact = () => {
             <a href="mailto:akonkwadieum222@gmail.com" target='_blank'>Send a message</a>
           </article>
           <article className="contact__option">
-            <AiOutlineLinkedin className='contact__option-icon' />
+            <BiLogoLinkedin className='contact__option-icon' />
             <h4>LinkedIn</h4>
             <h5>Dieum Akonkwa</h5>
             <a href="https://www.linkedin.com/in/dieumakonkwa/" target='_blank'>Connect with me on LinkedIn</a>

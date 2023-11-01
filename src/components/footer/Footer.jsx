@@ -5,7 +5,7 @@ import { AiOutlineHeart } from 'react-icons/ai';
 
 const Footer = () => (
   <footer>
-    <a href="#" className="footer__logo">DIEUM</a>
+    <a href="#header" className="footer__logo">DIEUM</a>
     <ul className="permalinks">
       <li><a href="#header">Home</a></li>
       <li><a href="#about">About</a></li>

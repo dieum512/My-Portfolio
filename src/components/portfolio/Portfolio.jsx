@@ -1,23 +1,22 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/project1.png'
-import IMG2 from '../../assets/project2.png'
-import IMG3 from '../../assets/project3.png'
-import IMG4 from '../../assets/project4.png'
-import IMG5 from '../../assets/project5.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css'
+import IMG1 from '../../assets/project1.png';
+import IMG2 from '../../assets/project2.png';
+import IMG3 from '../../assets/project3.png';
+import IMG4 from '../../assets/project4.png';
+import IMG5 from '../../assets/project5.png';
+import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Pollstar',
-    detail: 'The purpose of this websit is to keep you updated on upcoming concerts in America.',
+    detail: 'The purpose of this website is to keep you updated on upcoming concerts in America.',
     github: 'https://github.com/dieum512/HTML-basic-JavaScript-Capstone',
     demo: 'https://dieum512.github.io/HTML-basic-JavaScript-Capstone/',
   },
@@ -25,7 +24,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'Todo List',
-    detail: 'The purpose of this websit is to help ypu organize your day by writing in there the tasks to do but also to check the tasks that are already done',
+    detail: 'The purpose of this website is to help you organize your day by writing in there the tasks to do but also to check the tasks that are already done',
     github: 'https://github.com/dieum512/To-do-list-test',
     demo: 'https://dieum512.github.io/To-do-list-test/dist/',
   },
@@ -41,7 +40,7 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'Calculator',
-    detail: `This is just a simple calculator that helps you do some math operations but also loads the some life's quotes on every refresh of the page`,
+    detail: 'This is just a simple calculator that helps you do some math operations but also loads some life\'s quotes on every refresh of the page',
     github: 'https://github.com/dieum512/math-magicians',
     demo: 'https://math-magicians-3myx.onrender.com/',
   },
@@ -53,48 +52,45 @@ const data = [
     github: 'https://github.com/dieum512/countries-app',
     demo: 'https://deploy-preview-1--snazzy-stroopwafel-091edc.netlify.app/',
   },
-]
+];
 
-const Portfolio = () => {
-  return (
-    <section id="portfolio">
-      <h5>My Recent Works</h5>
-      <h2>Portfolio</h2>
-      <div className="container portfolio__container">
-        <div className="swiper__cont">
+const Portfolio = () => (
+  <section id="portfolio">
+    <h5>My Recent Works</h5>
+    <h2>Portfolio</h2>
+    <div className="container portfolio__container">
+      <div className="swiper__cont">
         <Swiper
           navigation
+          pagination={{ clickable: true }}
           modules={[Navigation, Pagination]}
           className="mySwiper"
           loopFillGroupWithBlank
-            slidesPerView={1}
+          slidesPerView={1}
           spaceBetween={20}
           slidesPerGroup={1}
         >
-        {
-          data.map((project) => {
-            return (
-              <SwiperSlide key={project.id} className="">
-                  <div className="portfolio__item-image">
-                    <img src={project.image} alt="" />
-                  </div>
-                  <div className="portfolio_item-details">
-                    <h3>{ project.title}</h3>
-                    <p>{project.detail}</p>
-                    <div className="portfolio__item-cta">
-                      <a href={project.github} className="btn" target='_blank'>Github</a>
-                      <a href={project.demo} className="btn btn-primary" target='_blank'>Live Demo</a>
-                    </div>
-                  </div>
-              </SwiperSlide>
-            )
-          })
+          {
+          data.map((project) => (
+            <SwiperSlide key={project.id} className="">
+              <div className="portfolio__item-image">
+                <img src={project.image} alt="" />
+              </div>
+              <div className="portfolio_item-details">
+                <h3>{ project.title}</h3>
+                <p>{project.detail}</p>
+                <div className="portfolio__item-cta">
+                  <a href={project.github} className="btn" target="_blank" rel="noreferrer">Github</a>
+                  <a href={project.demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))
         }
-      </Swiper>
+        </Swiper>
       </div>
-      </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+);
 
-export default Portfolio
+export default Portfolio;

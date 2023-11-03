@@ -16,7 +16,7 @@ const Footer = () => (
       <li><a href="#contact">Contact</a></li>
     </ul>
     <div className="footer__socials">
-      <a href="https://www.linkedin.com/in/dieum-akonkwa/" aria-label="LinkedIn profile" target="_blank"><FaLinkedinIn /></a>
+      <a href="https://www.linkedin.com/in/dieumakonkwa/" aria-label="LinkedIn profile" target="_blank"><FaLinkedinIn /></a>
       <a href="https://twitter.com/dieumakonkw" aria-label="Twitter profile" target='_blank'><FaTwitter /></a>
     </div>
     <div className="footer__copyright">

@@ -41,6 +41,20 @@ const data = [
     detail: 'The purpose of this website is to help you organize your day by writing in there the tasks to do but also to check the tasks that are already done',
     github: 'https://github.com/dieum512/To-do-list-test',
     demo: 'https://dieum512.github.io/To-do-list-test/dist/',
+    stack: [
+      {
+        id: 1,
+        tech: HTML,
+      },
+      {
+        id: 2,
+        tech: CSS,
+      },
+      {
+        id: 3,
+        tech: JavaScript,
+      },
+    ],
   },
   {
     id: 3,

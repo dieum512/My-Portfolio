@@ -149,7 +149,7 @@ const Portfolio = () => (
               <div className="portfolio_item-details">
                 <h3>{ project.title}</h3>
                 <p>{project.detail}</p>
-                <ul className='stack__container'>
+                <ul className="stack__container">
                   {
                     project.stack.map((stack) => (
                       <li key={stack.id}>

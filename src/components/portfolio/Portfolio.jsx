@@ -22,15 +22,15 @@ const data = [
     stack: [
       {
         id: 1,
-        tech: HTML,
+        tech: 'HTML',
       },
       {
         id: 2,
-        tech: CSS,
+        tech: 'CSS',
       },
       {
         id: 3,
-        tech: JavaScript,
+        tech: 'JavaScript',
       },
     ],
   },
@@ -44,15 +44,15 @@ const data = [
     stack: [
       {
         id: 1,
-        tech: HTML,
+        tech: 'HTML',
       },
       {
         id: 2,
-        tech: CSS,
+        tech: 'CSS',
       },
       {
         id: 3,
-        tech: JavaScript,
+        tech: 'JavaScript',
       },
     ],
   },
@@ -66,15 +66,15 @@ const data = [
     stack: [
       {
         id: 1,
-        tech: HTML,
+        tech: 'HTML',
       },
       {
         id: 2,
-        tech: CSS,
+        tech: 'CSS',
       },
       {
         id: 3,
-        tech: JavaScript,
+        tech: 'JavaScript',
       },
     ],
   },
@@ -88,15 +88,15 @@ const data = [
     stack: [
       {
         id: 1,
-        tech: React,
+        tech: 'React',
       },
       {
         id: 2,
-        tech: CSS,
+        tech: 'CSS',
       },
       {
         id: 3,
-        tech: JavaScript,
+        tech: 'JavaScript',
       },
     ],
   },
@@ -110,15 +110,15 @@ const data = [
     stack: [
       {
         id: 1,
-        tech: HTML,
+        tech: 'HTML',
       },
       {
         id: 2,
-        tech: CSS,
+        tech: 'CSS',
       },
       {
         id: 3,
-        tech: JavaScript,
+        tech: 'JavaScript',
       },
     ],
   },

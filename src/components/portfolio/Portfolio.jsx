@@ -149,6 +149,15 @@ const Portfolio = () => (
               <div className="portfolio_item-details">
                 <h3>{ project.title}</h3>
                 <p>{project.detail}</p>
+                <ul>
+                  {
+                    project.stack.map((stack) => (
+                      <li key={stack.id}>
+                        {stack.tech}
+                      </li>
+                    ))
+                  }
+                </ul>
                 <div className="portfolio__item-cta">
                   <a href={project.github} className="btn" target="_blank" rel="noreferrer">Github</a>
                   <a href={project.demo} className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>

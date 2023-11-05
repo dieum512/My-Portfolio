@@ -19,7 +19,20 @@ const data = [
     detail: 'The purpose of this website is to keep you updated on upcoming concerts in America.',
     github: 'https://github.com/dieum512/HTML-basic-JavaScript-Capstone',
     demo: 'https://dieum512.github.io/HTML-basic-JavaScript-Capstone/',
-    stack: [],
+    stack: [
+      {
+        id: 1,
+        tech: HTML,
+      },
+      {
+        id: 2,
+        tech: CSS,
+      },
+      {
+        id: 3,
+        tech: JavaScript,
+      },
+    ],
   },
   {
     id: 2,

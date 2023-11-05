@@ -92,11 +92,11 @@ const data = [
       },
       {
         id: 2,
-        tech: 'CSS',
+        tech: 'Redux',
       },
       {
         id: 3,
-        tech: 'JavaScript',
+        tech: 'CSS',
       },
     ],
   },
@@ -110,15 +110,15 @@ const data = [
     stack: [
       {
         id: 1,
-        tech: 'HTML',
+        tech: 'React',
       },
       {
         id: 2,
-        tech: 'CSS',
+        tech: 'Redux',
       },
       {
         id: 3,
-        tech: 'JavaScript',
+        tech: 'CSS',
       },
     ],
   },

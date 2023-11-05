@@ -63,6 +63,20 @@ const data = [
     detail: 'The Leaderboard displays scores submited by different players. You can also submit your score there too and it will be saved in an external API',
     github: 'https://github.com/dieum512/Leaderboard',
     demo: 'https://dieum512.github.io/Leaderboard/dist/',
+    stack: [
+      {
+        id: 1,
+        tech: HTML,
+      },
+      {
+        id: 2,
+        tech: CSS,
+      },
+      {
+        id: 3,
+        tech: JavaScript,
+      },
+    ],
   },
   {
     id: 4,

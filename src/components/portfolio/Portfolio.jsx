@@ -85,6 +85,20 @@ const data = [
     detail: 'This is just a simple calculator that helps you do some math operations but also loads some life\'s quotes on every refresh of the page',
     github: 'https://github.com/dieum512/math-magicians',
     demo: 'https://math-magicians-3myx.onrender.com/',
+    stack: [
+      {
+        id: 1,
+        tech: React,
+      },
+      {
+        id: 2,
+        tech: CSS,
+      },
+      {
+        id: 3,
+        tech: JavaScript,
+      },
+    ],
   },
   {
     id: 5,

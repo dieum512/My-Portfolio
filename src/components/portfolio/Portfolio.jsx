@@ -107,6 +107,20 @@ const data = [
     detail: 'This contains the list of all the countries in the world and helps you find some different informations for each and every one of them like the area, capital, population, etc.',
     github: 'https://github.com/dieum512/countries-app',
     demo: 'https://deploy-preview-1--snazzy-stroopwafel-091edc.netlify.app/',
+    stack: [
+      {
+        id: 1,
+        tech: HTML,
+      },
+      {
+        id: 2,
+        tech: CSS,
+      },
+      {
+        id: 3,
+        tech: JavaScript,
+      },
+    ],
   },
 ];
 

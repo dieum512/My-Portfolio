@@ -92,10 +92,6 @@ const data = [
       },
       {
         id: 2,
-        tech: 'Redux',
-      },
-      {
-        id: 3,
         tech: 'CSS',
       },
     ],

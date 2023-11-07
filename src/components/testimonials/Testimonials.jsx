@@ -56,7 +56,7 @@ const Testimonials = () => (
               <div className="partner__avatar">
                 <img src={testimonial.avatar} alt={testimonial.name} />
               </div>
-              <h5 className="partner__name">{ name }</h5>
+              <h5 className="partner__name">{ testimonial.name }</h5>
               <small className="partner__review">{ review }</small>
             </SwiperSlide>
           ))

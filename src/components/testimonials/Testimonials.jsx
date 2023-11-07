@@ -51,9 +51,7 @@ const Testimonials = () => (
       pagination={{ clickable: true }}
     >
       {
-          data.map(({
-            id, avatar, name, review,
-          }) => (
+          data.map((testimonial) => (
             <SwiperSlide key={id} className="testimonial">
               <div className="partner__avatar">
                 <img src={avatar} alt={name} />

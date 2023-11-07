@@ -54,7 +54,7 @@ const Testimonials = () => (
           data.map((testimonial) => (
             <SwiperSlide key={testimonial.id} className="testimonial">
               <div className="partner__avatar">
-                <img src={testimonial.avatar} alt={name} />
+                <img src={testimonial.avatar} alt={testimonial.name} />
               </div>
               <h5 className="partner__name">{ name }</h5>
               <small className="partner__review">{ review }</small>

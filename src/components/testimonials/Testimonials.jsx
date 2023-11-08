@@ -40,7 +40,7 @@ const data = [
     id: 3,
     avatar: AVTR5,
     name: 'Hiro Mataba',
-    review: `Dieum Akonkwa is one of the most committed and skillful developers I've had the pleasure of working with at Microverse. He's super dedicated to his craft, which is exciting and motivating! He's always right on schedule, fancies standard/best coding practices, and has impeccable eyes for perfection - not minding a few requests for changes.`,
+    review: 'Dieum Akonkwa is one of the most committed and skillful developers I\'ve had the pleasure of working with at Microverse. He\'s super dedicated to his craft, which is exciting and motivating! He\'s always right on schedule, fancies standard/best coding practices, and has impeccable eyes for perfection - not minding a few requests for changes.',
   },
 ];
 

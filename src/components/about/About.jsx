@@ -33,7 +33,7 @@ const About = () => (
           </article>
         </div>
         <p>
-          I have completed the Microverse Front-End Curriculum, an online training school
+          I have completed the Microverse Full Stack Curriculum, an online training school
           where I have been coding 8 hours a day remotely with other developers and have
           learned the skills of leading, communication, and teamwork
         </p>
